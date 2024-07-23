@@ -1,0 +1,177 @@
+.mainbox {
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+    background-color: #232732;
+}
+
+.box {
+    width: 80%;
+    margin: auto;
+    background-color: #232732;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    justify-content: space-around;
+    color: white;
+}
+
+@media(max-width:569px) {
+    .navbar {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+}
+
+
+.nav {
+    display: none;
+}
+
+
+
+li {
+    width: 8%;
+    border-radius: 30%;
+    height: 30px;
+    background-color: #232732;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.fa-bars {
+    color: red;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    text-align: center;
+    color: white;
+}
+
+.box1 {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-color: #232732;
+    display: flex;
+    justify-content: center;
+}
+
+.para1 {
+
+    justify-content: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.opp1 img {
+    height: 500px;
+    width: 500px;
+}
+
+.line {
+    display: flex;
+    margin-left: 100px;
+    width: 60%;
+    border: 1px solid black;
+
+}
+
+.blue {
+    color: blue;
+    width: 70%;
+    border: 1px solid #7733FF;
+
+}
+
+.yellow {
+    color: yellow;
+    width: 30%;
+    background: #F7A21E;
+
+}
+
+
+
+.box2 {
+
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    background-color: #232732;
+
+}
+
+.img2 img {
+
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+}
+
+.imgg2 {
+
+
+    margin-left: 150px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.box3 {
+
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    background-color: #232732;
+    text-align: center;
+
+
+}
+
+h4 {
+    color: red;
+    margin-inline-start: 60%;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    width: 20%;
+
+    justify-content: center;
+    border-radius: 30%;
+    height: 30px;
+
+}
+
+p {
+    color: white;
+    margin-left: 100px;
+}
+
+.img4 {
+
+    text-align: center;
+    margin: auto;
+    background-color: #232732;
+}
